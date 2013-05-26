@@ -126,6 +126,7 @@ local function styleGUI()
 	F.CreateBD(DBM_GUI_OptionsFrame)
 	F.CreateSD(DBM_GUI_OptionsFrame)
 	F.Reskin(DBM_GUI_OptionsFrameOkay)
+	F.Reskin(DBM_GUI_OptionsFrameWebsiteButton)
 	F.ReskinScroll(DBM_GUI_OptionsFramePanelContainerFOVScrollBar)
 end
 
