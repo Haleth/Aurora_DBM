@@ -1,4 +1,4 @@
-## Interface: 50200
+## Interface: 50300
 ## Title: Aurora_DBM
 ## Notes: Deadly Boss Mods plugin for Aurora.
 ## Author: Haleth/Freethinker
