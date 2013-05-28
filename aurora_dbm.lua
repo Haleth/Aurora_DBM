@@ -19,11 +19,10 @@ local function styleCore()
 	hooksecurefunc(DBM.RangeCheck, "Show", function()
 		if firstRange then
 			DBMRangeCheck:SetBackdrop(nil)
-			local bd = CreateFrame("Frame", nil, DBMRangeCheck)
-			bd:SetPoint("TOPLEFT")
-			bd:SetPoint("BOTTOMRIGHT")
-			bd:SetFrameLevel(DBMRangeCheck:GetFrameLevel()-1)
-			F.CreateBD(bd)
+			F.CreateBDFrame(DBMRangeCheck)
+
+			DBMRangeCheckRadar.background:SetTexture("")
+			F.CreateBDFrame(DBMRangeCheckRadar)
 
 			firstRange = false
 		end
