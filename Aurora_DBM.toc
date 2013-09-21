@@ -1,8 +1,8 @@
-## Interface: 50300
+## Interface: 50400
 ## Title: Aurora_DBM
 ## Notes: Deadly Boss Mods plugin for Aurora.
 ## Author: Haleth/Freethinker
-## Version: 1.3
+## Version: 1.4
 ## RequiredDeps: Aurora
 ## OptionalDeps: DBM-Core
 
