@@ -67,7 +67,6 @@ local function styleCore()
 			local editBox = frame:GetChildren()
 			if editBox and editBox:GetObjectType() == "EditBox" and editBox:GetText() == "http://www.deadlybossmods.com" and not frame.styled then
 				F.CreateBD(frame)
-				F.CreateSD(frame)
 
 				select(6, editBox:GetRegions()):Hide()
 				select(7, editBox:GetRegions()):Hide()
@@ -149,7 +148,6 @@ local function styleGUI()
 	end)
 
 	F.CreateBD(DBM_GUI_OptionsFrame)
-	F.CreateSD(DBM_GUI_OptionsFrame)
 	F.Reskin(DBM_GUI_OptionsFrameOkay)
 	F.Reskin(DBM_GUI_OptionsFrameWebsiteButton)
 	F.ReskinScroll(DBM_GUI_OptionsFramePanelContainerFOVScrollBar)
